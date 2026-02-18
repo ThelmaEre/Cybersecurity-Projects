@@ -12,7 +12,8 @@ This is a beginner-friendly cybersecurity project that analyzes log files for su
 
 ## Example Output
 Here’s a sample run of the log analyzer. This screenshot shows the analyzer detecting brute‑force login attempts and sensitive file access. It also demonstrates the color‑coded alerts (red for warnings, yellow for informational events) and the **summary dashboard** at the end of the scan.
-![alt text](image.png)
+<img width="1049" height="535" alt="Example_output" src="https://github.com/user-attachments/assets/30204c4e-8e65-496e-ae8c-11a9fca2eba1" />
+
 
 ## Usage
 Run the analyzer with: python analyzer.py sample.log
@@ -38,6 +39,7 @@ At the end of each run, the tool prints:
 - The total failed login attempts
 - The number of unique suspicious IPs
 - A list of flagged IP Addresses
+
 
 
 
